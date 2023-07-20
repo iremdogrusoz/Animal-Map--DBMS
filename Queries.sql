@@ -1,10 +1,4 @@
 /*
-	IS 503 - Spring 2022
-	Term project queries
-	Student name(s): Irem Dogrusoz
-	
-	==================================================================
-	
 	Complex query 1
 	Explanation: Find all the common names of animals that animals show Hibernation feature. feature_name= 'Hibernation'.
 */
@@ -35,24 +29,6 @@ WHERE NOT EXISTS (
         AND image_date LIKE '2023%'
     )
 );
-
-/*
-	If you have a teammate:
-	
-	Complex query 3
-	Explanation: Explain what your query does here.
-*/
-
--- Your third complex query here
-
-/*
-	If you have a teammate:
-	
-	Complex query 4
-	Explanation: Explain what your query does here.
-*/
-
--- Your fourth complex query here
 
 /*
 	==================================================================
@@ -86,8 +62,6 @@ FOR EACH ROW
 	Trigger control queries 1
 	Provide a select query to retrieve the results. 
 	Then, provide an update/insert/delete query that would affect the results due to the trigger. 
-	For example, if inserting a row to table X updates the user table, your select query must retrieve the users.
-	Your second query must have an update/insert/delete on the table X that would trigger a change on the user table. 
 	Using these, we can see whether your trigger works.
 */
 
@@ -118,7 +92,6 @@ DELIMITER ;
 
 /*
 	Trigger control queries 2
-	Do the same thing you did while checking the first trigger, this time for the second trigger.
 */
 
 SELECT * FROM Species;
@@ -146,7 +119,6 @@ DELIMITER ;
 
 /*
 	Trigger control queries 3
-	Do the same thing you did while checking the first trigger, this time for the third trigger.
 */
 
 SELECT * FROM Family;
